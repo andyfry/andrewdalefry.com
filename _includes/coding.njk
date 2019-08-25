@@ -1,0 +1,21 @@
+{% extends "base.njk" %}
+
+{% block main %}
+    <h1>{{title}}</h1>
+    <h2>
+        <span class="label">Published:</span><span class="date">{{page.date}}</span>
+    </h2>
+    {{content | safe}}
+{% endblock %}
+
+{% block sidebar %}
+    <nav class="pages">
+        <ul>
+            {% for page in collections.coding %}
+                <li>
+                    <a href="{{page.url}}">{{page.data.title}}</a>
+                </li>
+            {% endfor %}
+        </ul>
+    </nav>
+{% endblock %}

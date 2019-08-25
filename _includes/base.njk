@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <title>{{pageTitle}}</title>
+
+        <meta name="description" content="Coding, Gaming and Whatever">
+        <meta name="author" content="Andy Fry">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <link rel="stylesheet" href="/css/reset.css">
+        <link rel="stylesheet" href="/css/style.css">
+    </head>
+
+    <body>
+        <div id="sidebar">
+            <div class="content">
+                <a href="/" class="logo">
+                    <h1 class="title">Andrew Dale Fry</h1>
+                    <h2 class="tag-line">Coding, Gaming and Whatever</h2>
+                </a>
+
+                <nav id="sections">
+                    <ul>
+                        <li>
+                            <a href="/about">about</a>
+                        </li>
+                        <li>
+                            <a href="/coding">coding</a>
+                        </li>
+                        <li>
+                            <a href="/gaming">gaming</a>
+                        </li>
+                    </ul>
+                </nav>
+
+                {% block sidebar %}
+                {% endblock %}
+                <p class="copyright">&copy; 2019 Andrew Dale Fry</p>
+            </div>
+        </div>
+
+        <main>
+            <div class="content">
+                {% block main %}
+                {% endblock %}
+            </div>
+        </main>
+    </body>

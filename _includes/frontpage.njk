@@ -1,0 +1,17 @@
+{% extends "base.njk" %}
+
+{% block main %}
+    <h1>{{title}}</h1>
+    <h2>
+        <span class="label">Published:</span><span class="date">{{page.date}}</span>
+    </h2>
+    {{content | safe}}
+{% endblock %}
+
+{% block sidebar %}
+    <div class="placeholder selfie">
+        <img src="selfie.jpg">
+    </div>
+    <p>Welcome to my site where I can share my ideas about coding, gaming and whatever else catches my
+                attention.</p>
+{% endblock %}
