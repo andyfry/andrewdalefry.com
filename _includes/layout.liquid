@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>{{pageTitle}}</title>
+
+    <meta name="description" content="Coding, Gaming and Whatever">
+    <meta name="author" content="Andy Fry">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" href="/css/reset.css">
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+    <div id="sidebar">
+        <div class="content">
+
+            <a href="index.html" class="logo">
+                <h1 class="title">Andrew Dale Fry</h1>
+                <h2 class="tag-line">Coding, Gaming and Whatever</h2>
+            </a>
+
+            <nav id="sections">
+                <ul>
+                    <li><a class="active" href="about.html">about</a></li>
+                    <li><a href="coding.html">coding</a></li>
+                    <li><a href="gaming.html">gaming</a></li>
+                </ul>
+            </nav>
+
+
+
+
+            <nav class="pages">
+                <ul>
+                    {% for page in collections.coding %}
+                    <li><a href="{{page.url}}">{{page.data.title}}</a></li>
+                    {% endfor %}
+                </ul>
+            </nav>
+        </div>
+    </div>
+
+    <main>
+        <div class="content">
+            <h1>{{title}}</h1>
+            <h2><span class="label">Published:</span><span class="date">{{date | date: "%B %d, %Y"}}</span><span
+                    class="label">Section:</span><span class="section">{{tags}}</span></h2>
+            {{ content }}
+        </div>
+    </main>
+</body>
+
+</html>
