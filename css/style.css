@@ -195,8 +195,8 @@ main .content p {
     margin: 0 0 1em 0;
 }
 
-ul.todo {
-    margin-left: 20px;
+main .content ul {
+    margin: 0 0 20px 20px;
     list-style: disc;
 }
 

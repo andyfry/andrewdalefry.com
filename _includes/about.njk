@@ -3,7 +3,7 @@
 {% block main %}
     <h1>{{title}}</h1>
     <h2>
-        <span class="label">Published:</span><span class="date">{{page.date}}</span>
+        <span class="label">Published:</span><span class="date">{{page.date | date}}</span>
     </h2>
     {{content | safe}}
 {% endblock %}
@@ -18,4 +18,21 @@
             {% endfor %}
         </ul>
     </nav>
+
+    <div class="contacts">
+        <h2>Contact Me</h2>
+        <ul>
+            <li>Email: <a href="mailto: AndrewDaleFry@gmail.com">AndrewDaleFry@gmail.com</a>
+            </li>
+            <li>YouTube: <a href="https://www.youtube.com/channel/UCf_kPpwLc2tdc2EnqPvC3Sw">Andy Fry</a>
+            </li>
+            <li>Twitch: <a href="http://twitch.com/andrewdalefry">andrewdalefry</a></li>
+            <li>Twitter: <a href="https://twitter.com/andyfry13">AndyFry13</a>
+            </li>
+            <li>github: <a href="https://github.com/andyfry/">andyfry</a>
+            </li>
+            <li>linkedin: <a href="https://linkedin.com/in/andy-fry-55b29481">Andy Fry</a>
+            </li>
+        </ul>
+    </div>
 {% endblock %}
