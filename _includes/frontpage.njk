@@ -1,10 +1,6 @@
 {% extends "base.njk" %}
 
 {% block main %}
-    <h1>{{title}}</h1>
-    <h2>
-        <span class="label">Published:</span><span class="date">{{page.date | date}}</span>
-    </h2>
     {{content | safe}}
 {% endblock %}
 
