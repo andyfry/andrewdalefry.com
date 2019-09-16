@@ -1,7 +1,7 @@
 html {
     /* background-color: #1f1f1f; */
     background-color: #222;
-    transition-duration: .25s;
+    /* transition-duration: .25s; */
 }
 
 html.light {
@@ -19,7 +19,7 @@ html.light {
     bottom: 0;
     /* background-color: #333; */
     background-color: #2d2d2d;
-    transition-duration: .25s;
+    /* transition-duration: .25s; */
 }
 
 .light #sidebar {
