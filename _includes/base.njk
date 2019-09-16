@@ -23,13 +23,13 @@
                 <nav id="sections">
                     <ul>
                         <li>
-                            <a href="/about">about</a>
+                            <a {% if page.url.startsWith('/about/') %} class="active" {% endif %} href="/about">about</a>
                         </li>
                         <li>
-                            <a href="/coding">coding</a>
+                            <a {% if page.url.startsWith('/coding/') %} class="active" {% endif %} href="/coding">coding</a>
                         </li>
                         <li>
-                            <a href="/gaming">gaming</a>
+                            <a {% if page.url.startsWith('/gaming/') %} class="active" {% endif %} href="/gaming">gaming</a>
                         </li>
                     </ul>
                 </nav>

@@ -1,1 +1,1 @@
-Gaiming Landing Page
+Gaming Landing Page

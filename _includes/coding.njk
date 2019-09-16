@@ -3,7 +3,7 @@
 {% block main %}
     <h1>{{title}}</h1>
     <h2>
-        <span class="label">Published:</span><span class="date">{{page.date}}</span>
+        <span class="label">Published:</span><span class="date">{{page.date | date}}</span>
     </h2>
     {{content | safe}}
 {% endblock %}
@@ -11,9 +11,9 @@
 {% block sidebar %}
     <nav class="pages">
         <ul>
-            {% for page in collections.coding %}
+            {% for codingPage in collections.coding %}
                 <li>
-                    <a href="{{page.url}}">{{page.data.title}}</a>
+                    <a {%if codingPage.url === page.url%} class="active" {% endif%} href="{{codingPage.url}}">{{codingPage.data.title}}</a>
                 </li>
             {% endfor %}
         </ul>
