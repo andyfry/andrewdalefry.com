@@ -17,5 +17,13 @@
                 </li>
             {% endfor %}
         </ul>
+        <h2>Videos</h2>
+        <ul>
+        {% for series in collections.codingSeries %}
+                <li>
+                    <a {%if series.url === page.url%} class="active" {% endif%} href="{{series.url}}">{{series.data.title}}</a>
+                </li>
+            {% endfor %}
+        </ul>
     </nav>
 {% endblock %}
