@@ -1,8 +1,9 @@
 ---
 layout: coding.njk
-tags: fizzbuzzKata
+tags: fizzBuzzKata
 title: Kata 3
-id: 1111
+date: 2019-08-13
+id: c_SM9HDsclU
 ---
 
 This is my third pass at the FizzBuzz Kata. In this episode, I focus on splitting up code into modules and focus on functions doing only one thing.

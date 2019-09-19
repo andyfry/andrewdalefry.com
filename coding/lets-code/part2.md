@@ -1,6 +1,6 @@
 ---
 title: Static Site Generator - Part 2
-date: 2019-09-16
+date: 2019-08-22
 id: FJXKbqUxDC0
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: Static Site Generator - Part 3
-date: 2019-09-16
+date: 2019-09-07
 id: TJNQOncg_Vo
 ---
 
