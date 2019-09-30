@@ -140,13 +140,12 @@ img {
 
 #sidebar .copyright {
     position: absolute;
-    left: 0;
-    right: 0;
     bottom: 0;
     color: #aaa;
     font-style: italic;
     text-align: center;
     margin: 0 0 5px;
+    width: 400px;
 }
 
 #sidebar p {
@@ -199,6 +198,32 @@ main .content ul {
     margin: 0 0 20px 20px;
     list-style: disc;
 }
+
+
+.contact {
+    position: absolute;
+    bottom: 20px;
+    width: 400px;
+}
+
+.contact__label{
+    padding: 0 0 0 15px;
+}
+
+.contact__title{
+    display: none;
+}
+
+.contact__list{
+  
+    margin: 10px;
+}
+
+.contact__list li{
+    display: inline;
+    margin: 0 5px;
+}
+
 
 /* A Linux- and Windows-friendly sans-serif font stack: http://prospects.mhurrell.co.uk/post/updating-the-helvetica-font-stack */
 
