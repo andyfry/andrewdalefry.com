@@ -10,10 +10,11 @@
 
 {% block sidebar %}
     <nav class="pages">
+        <h2>Videos</h2>
         <ul>
-            {% for page in collections.gaming %}
+            {% for series in collections.gamingSeries %}
                 <li>
-                    <a href="{{page.url}}">{{page.data.title}}</a>
+                    <a {%if series.url === page.url%} class="active" {% endif%} href="{{series.url}}">{{series.data.title}}</a>
                 </li>
             {% endfor %}
         </ul>

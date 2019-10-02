@@ -1,0 +1,28 @@
+---
+layout: gaming.njk
+---
+
+<h1>{{page.data.title}}</h1>
+{{content | safe}}
+
+{% for video in collections[collection] %}
+    <h1>{{video.data.title}}</h1>
+     <h2>
+        <span class="label">Published:</span><span class="date">{{video.data.date | date}}</span>
+    </h2>
+    {% if video.data.id !== undefined %}
+        <iframe 
+            width="560" 
+            height="315" 
+            src="https://www.youtube-nocookie.com/embed/{{video.data.id}}" 
+            frameborder="0" 
+            allow="accelerometer; 
+            autoplay; 
+            encrypted-media; 
+            gyroscope; 
+            picture-in-picture" 
+            allowfullscreen>
+        </iframe>
+    {% endif%}
+    <p>{{video.templateContent | safe}}</p>
+{% endfor %}
