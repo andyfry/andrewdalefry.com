@@ -31,18 +31,9 @@ else
     fail "Failed to obtain sudo credentials."
 fi
 
-info "Installing XCode command line tools..."
-if xcode-select --print-path &>/dev/null; then
-    success "XCode command line tools already installed."
-elif xcode-select --install &>/dev/null; then
-    success "Finished installing XCode command line tools."
-else
-    fail "Failed to install XCode command line tools."
-fi
-
 info "Installing Homebrew package manager"
 if test ! $(which brew); then
-  ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
   success "Finished installing Homebrew."
 else
   success "Homebrew already installed."
