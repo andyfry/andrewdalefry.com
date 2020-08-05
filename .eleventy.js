@@ -11,6 +11,7 @@ module.exports = function (eleventyConfig) {
       "md",
       "png",
       "jpg",
+      "sh",
       "css" // css is not yet a recognized template extension in Eleventy
     ]
   };
