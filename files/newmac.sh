@@ -1,0 +1,1 @@
+/Users/andyfry/Projects/dotfiles/newmac.sh
