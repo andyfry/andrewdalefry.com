@@ -46,4 +46,4 @@ if [ -d ".dotfiles" ]; then
 fi
 git clone https://github.com/andyfry/dotfiles.git .dotfiles
 
-./dotfiles/bootstrap.sh
+.dotfiles/bootstrap.sh
