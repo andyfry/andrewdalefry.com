@@ -39,3 +39,5 @@ else
   success "Homebrew already installed."
 fi
 
+info "Cloning dotfile Repository"
+ git clone https://github.com/andyfry/dotfiles.git .dotfiles
