@@ -40,4 +40,10 @@ else
 fi
 
 info "Cloning dotfile Repository"
- git clone https://github.com/andyfry/dotfiles.git .dotfiles
+if [ -d ".dotfiles" ]; then
+  info "Archiving old .dotfiles..."
+  mv .dotfiles dotfiles.old
+fi
+git clone https://github.com/andyfry/dotfiles.git .dotfiles
+
+./dotfiles/bootstrap.sh
