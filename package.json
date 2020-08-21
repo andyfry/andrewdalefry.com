@@ -1,16 +1,16 @@
 {
-  "name": "website-test",
+  "name": "andrewdalefry.com",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "The personal webpage for Andrew Dale Fry",
+  "main": "_site/index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "Andrew Dale Fry",
+  "license": "MIT",
   "devDependencies": {
-    "@11ty/eleventy": "^0.8.3",
-    "moment": "^2.24.0"
+    "@11ty/eleventy": "^0.11.0",
+    "moment": "^2.27.0"
   }
 }
