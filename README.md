@@ -1,0 +1,11 @@
+# TODO
+- ADD a consulting page
+- Setup a consulting email
+- .dotfiles article
+- setup article
+- katas article
+- machine article
+- keyboard article
+- article about this website
+- consolidate: website, AndrewDaleFry.com, and andyfry.github.io
+- upgrade eleventy
