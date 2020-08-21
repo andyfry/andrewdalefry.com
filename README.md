@@ -1,11 +1,16 @@
+# AndrewDaleFry.com
+
+My website. Built with the Eleventy static site generator. 
+
+# Articles to Write
+- My .dotfiles
+- My setup
+- My Keyboard
+- Intro to Katas
+
 # TODO
-- ADD a consulting page
-- Setup a consulting email
-- .dotfiles article
-- setup article
-- katas article
-- machine article
-- keyboard article
-- article about this website
 - consolidate: website, AndrewDaleFry.com, and andyfry.github.io
-- upgrade eleventy
+- Setup a consulting email
+- Add a consulting page
+- Link to my a Gaming site
+
