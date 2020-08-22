@@ -15,4 +15,3 @@ This site is starting as a skeleton of what I hope it will grow to become. I wil
 
 ###  Feedback
 Any feedback you might have is both welcomed and valued. You can reach out to me through my Email: AndrewDaleFry@gmail.com. Maybe in the future, I will add the ability to comment directly on the page. I will add that to my TODO list.
-
