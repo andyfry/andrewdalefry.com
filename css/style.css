@@ -306,13 +306,20 @@ blockquote {
 -------------------------------------------------------------------------------*/
 
 @media screen and (max-width: 480px) {
-    header {
-        font-size: 20px;
-        display: hidden;
-        background-color: white;
+    #sidebar{
+        position: relative;
     }
-    main .content {
-        background-color: orange;
+
+    #sidebar .copyright {
+        position: relative;
+    }
+
+    .contact{
+        position: relative;
+    }
+
+    main {
+        width: 100%;
     }
 }
 

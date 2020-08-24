@@ -13,6 +13,13 @@
     </head>
 
     <body>
+        <main>
+            <div class="content">
+                {% block main %}
+                {% endblock %}
+            </div>
+        </main>
+        
         <div id="sidebar">
             <div class="content">
                 <a href="/" class="logo">
@@ -42,10 +49,4 @@
             </div>
         </div>
 
-        <main>
-            <div class="content">
-                {% block main %}
-                {% endblock %}
-            </div>
-        </main>
     </body>
