@@ -8,7 +8,40 @@ html.light {
     background-color: #fff;
 }
 
-/* TODO: Change to header? */
+
+.posts a    {
+    display: block;
+    text-decoration: none;
+    margin: 10px 0;
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: 1px solid #333333;
+}
+
+.posts a .title    {
+    color: #035AA6;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.posts a .meta    {
+    margin-top: 5px;
+    float: right;
+}
+
+.posts a .date    {
+    display: block;
+    color: #666;
+    text-align: right;
+    line-height: 1.0;
+}
+
+.posts a .tags    {
+    color: #BF1B93;
+    text-align: right;
+    line-height: 1.0;
+}
+
 
 #sidebar {
     position: fixed;

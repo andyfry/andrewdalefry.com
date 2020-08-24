@@ -1,3 +1,8 @@
+---
+title: Games List
+tags: Really Really Long Tag
+---
+
 # New Games
 - Cadence of Hyule
 - Fire Pro Wrestling World

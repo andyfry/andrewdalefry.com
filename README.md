@@ -3,6 +3,11 @@
 My website. Built with the Eleventy static site generator. 
 
 # TODO
+- Add excerpts for Posts
+- Navigation 
+- Style Post Links for mobile
+- Implement Draft Files
+- Move gaming to rexlusc.us
 - Link to my a Gaming site
 - Setup a consulting email
 - Add a consulting page
