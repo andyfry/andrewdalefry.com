@@ -24,19 +24,16 @@
             <div class="content">
                 <a href="/" class="logo">
                     <h1 class="title">Andrew Dale Fry</h1>
-                    <h2 class="tag-line">Coding, Gaming and Whatever</h2>
+                    <h2 class="tag-line">Coding and Whatever</h2>
                 </a>
 
-                <nav id="sections">
+                <nav id="sections" style="display: none;">
                     <ul>
                         <li>
                             <a {% if page.url.startsWith('/about/') %} class="active" {% endif %} href="/about">about</a>
                         </li>
                         <li>
                             <a {% if page.url.startsWith('/coding/') %} class="active" {% endif %} href="/coding">coding</a>
-                        </li>
-                        <li>
-                            <a {% if page.url.startsWith('/gaming/') %} class="active" {% endif %} href="/gaming">gaming</a>
                         </li>
                     </ul>
                 </nav>
