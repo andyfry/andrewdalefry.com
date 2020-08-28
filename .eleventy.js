@@ -11,12 +11,10 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("images");
   eleventyConfig.addPassthroughCopy("files");
 
-
   // **************************************************************************
   // Plug-ins
   // **************************************************************************
   eleventyConfig.addPlugin(inclusiveLangPlugin);
-
 
   // **************************************************************************
   // Custom Filters
@@ -59,8 +57,6 @@ module.exports = function (eleventyConfig) {
     // returning an array in addCollection works in Eleventy 0.5.3
     return [...tagSet];
   });
-
-
 
   return {
     templateFormats: [
