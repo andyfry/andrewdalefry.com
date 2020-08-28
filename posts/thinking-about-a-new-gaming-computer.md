@@ -2,6 +2,7 @@
 title:  "Thinking About a New Gaming Computer"
 date:   2017-06-21
 categories: games hardeware
+tags: ['hardware', 'gaming']
 ---
 
 I have been thinking about getting a new gaming PC for a while now. It has been a long time since I've had one and even longer since I've had a Windows PC.

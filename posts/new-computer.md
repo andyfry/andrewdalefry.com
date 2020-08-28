@@ -1,7 +1,7 @@
 ---
 title:  "New Gaming Computer"
 date:   2017-07-07
-categories: games hardeware
+tags: ['gaming', 'hardware']
 ---
 
 So, I built myself a new gaming PC. I may have went a little overboard, but I had a lot of fun putting it together. Right now it is just air-cooled, but I still plan on water-cooling at least the CPU and the motherboard. If the GPU fans get too noisy, I might water-cool that too, but for now I like the look of the graphics card as is.

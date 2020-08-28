@@ -4,9 +4,10 @@ My website. Built with the Eleventy static site generator.
 
 # TODO
 - Add excerpts for Posts
-- Navigation 
+- minimise
+- Inclusive Linter Plugin
+- Navigation - navigation plugin, forward an back 
 - Style Post Links for mobile
-- Implement Draft Files
 - Move gaming to rexlusc.us
 - Link to my a Gaming site
 - Setup a consulting email

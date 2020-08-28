@@ -1,17 +1,24 @@
 ---
-title: Front Page
-date: 2019-07-29
-layout: frontpage.njk
-eleventyExcludeFromCollections: true
 pagination:
-  data: collections.all
-  size: 1000
-  reverse: true
-  alias: posts
+  data: collections
+  size: 1
+  alias: tag
+  filter:
+    - all
+    - nav
+    - post
+    - posts
+    - tagList
+  addAllPagesToCollections: true
+layout: post.njk
+eleventyExcludeFromCollections: true
+eleventyComputed:
+  title: "{{ tag | capitalize  }} Posts" 
+permalink: /tags/{{ tag }}/
 ---
 
 <div class="posts">
-    {%- for post in posts  -%}
+    {% for post in collections[ tag ] %}
         <a href={{post.url}}>
             <span class="title">{{post.data.title}}</span>
             <div class="meta">
@@ -23,5 +30,5 @@ pagination:
                 </div>
             </div>
         </a>
-    {%- endfor -%}
+    {% endfor %}
 </div>

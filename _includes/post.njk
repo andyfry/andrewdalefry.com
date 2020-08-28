@@ -1,0 +1,28 @@
+{% extends "base.njk" %}
+
+{% block main %}
+    <h1>{{title}}</h1>
+    <div class="meta">
+        <span class="label">Published:</span><span class="date">{{page.date | date}}</span>
+        <div class="tags">
+            {%- for tag in tags -%}
+            {% set tagUrl %}/tags/{{ tag }}/{% endset %}
+                <a href="{{tagUrl}}">{{tag}}</a>
+            {%- endfor -%}    
+        </div>
+    </div>
+    {{content | safe}}
+{% endblock %}
+
+{% block sidebar %}
+    <nav class="pages">
+        <h2>Categories</h2>
+        <ul>
+        {% for tag in collections.tagList %}
+            {% set tagUrl %}/tags/{{ tag }}/{% endset %}
+            <li><a {% if tagUrl === page.url %} class="active" {% endif %} href="{{tagUrl}}">{{tag}}</a></li>
+        {% endfor %}
+        </ul>
+
+    </nav>
+{% endblock %}

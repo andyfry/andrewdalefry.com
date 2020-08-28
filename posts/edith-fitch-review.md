@@ -1,7 +1,7 @@
 ---
-title:  '"What Remains of Edith Finch" Review'
-date:   2017-07-09
-categories: games
+title: '"What Remains of Edith Finch" Review'
+date: 2017-07-09
+tags: review
 ---
 
 --Cons: 

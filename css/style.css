@@ -18,6 +18,9 @@ html.light {
     border: 1px solid #333333;
 }
 
+.posts a:hover    {
+    background-color: #333333;
+}
 .posts a .title    {
     color: #035AA6;
     font-size: 24px;
@@ -40,6 +43,10 @@ html.light {
     color: #BF1B93;
     text-align: right;
     line-height: 1.0;
+}
+
+.posts a .tags  .tag {
+    margin-left: 10px;
 }
 
 
