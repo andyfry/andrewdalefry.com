@@ -1,4 +1,5 @@
 const moment = require('moment');
+const inclusiveLangPlugin = require("@11ty/eleventy-plugin-inclusive-language");
 
 module.exports = function (eleventyConfig) {
 
@@ -9,6 +10,13 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("css");
   eleventyConfig.addPassthroughCopy("images");
   eleventyConfig.addPassthroughCopy("files");
+
+
+  // **************************************************************************
+  // Plug-ins
+  // **************************************************************************
+  eleventyConfig.addPlugin(inclusiveLangPlugin);
+
 
   // **************************************************************************
   // Custom Filters
