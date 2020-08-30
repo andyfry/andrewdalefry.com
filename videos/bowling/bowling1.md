@@ -1,7 +1,7 @@
 ---
 layout: coding.njk
-tags: bowlingKata
-title: Kata 1
+tags: kataBowling
+title: Bowling Game 1
 id: sN9Z7E0rVAo
 date: 2019-08-21
 ---

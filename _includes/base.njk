@@ -15,11 +15,10 @@
     <body>
         <main>
             <div class="content">
-                {% block main %}
-                {% endblock %}
+                {% block main %}{% endblock %}
             </div>
         </main>
-        
+
         <div id="sidebar">
             <div class="content">
                 <a href="/" class="logo">
@@ -27,19 +26,21 @@
                     <h2 class="tag-line">Coding and Whatever</h2>
                 </a>
 
-                <nav id="sections" style="display: none;">
+                <nav id="sections">
                     <ul>
                         <li>
-                            <a {% if page.url.startsWith('/about/') %} class="active" {% endif %} href="/about">about</a>
+                            <a {% if page.url.startsWith('/posts/') %} class="active" {% endif %} href="/posts">Blog</a>
                         </li>
                         <li>
-                            <a {% if page.url.startsWith('/coding/') %} class="active" {% endif %} href="/coding">coding</a>
+                            <a {% if page.url.startsWith('/videos/') %} class="active" {% endif %} href="/videos">Videos</a>
+                        </li>
+                        <li>
+                            <a {% if page.url.startsWith('/about/') %} class="active" {% endif %} href="/about">About</a>
                         </li>
                     </ul>
                 </nav>
 
-                {% block sidebar %}
-                {% endblock %}
+                {% block sidebar %}{% endblock %}
 
                 {% include "contact.html" %}
                 <p class="copyright">&copy; 2020 Andrew Dale Fry</p>

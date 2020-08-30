@@ -1,8 +1,8 @@
 ---
 layout: series.njk
 tags: codingSeries
-title: FizzBuzz Kata
-collection: fizzBuzzKata
+title: Kata - FizzBuzz
+collection: KataFizzBuzz
 ---
 
 This kata has us solving the simple math game FizzBuzz.

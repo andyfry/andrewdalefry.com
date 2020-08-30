@@ -1,7 +1,7 @@
 ---
 layout: coding.njk
 tags: codingDojo
-title: Javascript Kata Setup
+title: Kata Setup - Javascript 
 id: gAsBW65rnrw
 date: 2019-07-02
 ---

@@ -3,12 +3,12 @@
 My website. Built with the Eleventy static site generator. 
 
 # TODO
+- Rework Homepage
 - Add excerpts for Posts
 - minimise
-- Inclusive Linter Plugin
+- Reading Time Plugin
 - Navigation - navigation plugin, forward an back 
 - Style Post Links for mobile
-- Move gaming to rexlusc.us
 - Link to my a Gaming site
 - Setup a consulting email
 - Add a consulting page

@@ -1,8 +1,8 @@
 ---
 layout: series.njk
 tags: codingSeries
-title: Bowling Game Kata
-collection: bowlingKata
+title: Kata - Bowling Game
+collection: kataBowling
 ---
 
 This kata has us creating a program that scores a game of bowling.

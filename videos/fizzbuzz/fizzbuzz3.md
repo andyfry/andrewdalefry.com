@@ -1,7 +1,7 @@
 ---
 layout: coding.njk
-tags: fizzBuzzKata
-title: Kata 3
+tags: KataFizzBuzz
+title: FizzBuzz 3
 date: 2019-08-13
 id: c_SM9HDsclU
 ---
