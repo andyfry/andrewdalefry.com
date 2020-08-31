@@ -11,9 +11,9 @@
 {% block sidebar %}
     <nav class="pages">
         <ul>
-            {% for aboutPage in collections.about %}
+            {% for metaPage in collections.meta %}
                 <li>
-                    <a {% if aboutPage.url === page.url %} class="active" {% endif %} href="{{aboutPage.url}}">{{aboutPage.data.title}}</a>
+                    <a {% if metaPage.url === page.url %} class="active" {% endif %} href="{{metaPage.url}}">{{metaPage.data.title}}</a>
                 </li>
             {% endfor %}
         </ul>

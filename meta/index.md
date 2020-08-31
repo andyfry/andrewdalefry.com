@@ -1,5 +1,5 @@
 ---
-title: Me
+title: About Me
 date: 2019-07-30
 ---
 My name is Andrew Fry. Most people call me Andy. I am a software developer and gamer originally from Wichita, KS who is now living in Houston, TX.

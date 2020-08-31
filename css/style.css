@@ -79,6 +79,8 @@ html.light {
 }
 
 #sidebar h2.tag-line {
+    position: relative;
+    top: -5px;
     padding: 0 0 10px 20px;
     font-size: 16px;
     font-weight: bold;
@@ -190,6 +192,8 @@ img {
 
 #sidebar p {
     margin: 20px;
+    line-height: 1.3;
+    color:#a9a9a9;
 }
 
 main .content h1.coming-soon {
@@ -231,7 +235,8 @@ main .content h3 {
 }
 
 main .content p {
-    margin: 0 0 1em 0;
+    margin: 0 0 20px 0;
+    line-height: 1.3;
 }
 
 main .content ul {
